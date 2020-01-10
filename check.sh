@@ -12,12 +12,12 @@ sh /home/oracle/proje/src/disk/diskbilgisi.sh >>/home/oracle/proje/report.html
 
 ################          BACKUP BILGISI          ##############################
 echo "<hr size="1px" color="black"> <h1 align=center> BACKUP BILGISI</h1> <body bgcolor="#C0C0C0">" >>/home/oracle/proje/report.html
-sqlplus -s sys/298irem@192.168.154.150:1521/ORCL as sysdba @/home/oracle/proje/src/backup/backup.sql >>/home/oracle/proje/report.html
+sqlplus / as sysdba @/home/oracle/proje/src/backup/backup.sql >>/home/oracle/proje/report.html
 ################################################################################
 
 ###############           TABLESPACE BILGISI      ##############################
 echo "<hr size="1px" color="black"> <h1 align=center> TABLESPACE BILGISI </h1>" >>/home/oracle/proje/report.html
-sqlplus -s sys/298irem@192.168.154.150:1521/ORCL  as sysdba @/home/oracle/proje/src/tablespace/tablespace.sql >>/home/oracle/proje/report.html
+sqlplus /  as sysdba @/home/oracle/proje/src/tablespace/tablespace.sql >>/home/oracle/proje/report.html
 ################################################################################
 
 ##############             ALERT_ BİLGİSİ         #############################
