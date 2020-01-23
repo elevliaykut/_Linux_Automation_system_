@@ -1,8 +1,5 @@
 SET ECHO OFF
 SET MARKUP HTML ON SPOOL ON
-
-
-
 SET PAGES 2000 LINES 200
 col "Start Date" FOR a20
 col "End Date" FOR a20
