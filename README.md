@@ -1,1 +1,7 @@
-# _Linux_Automation_system_
+## Linux Automation System
+
+### Technologies used;
+
+- Bash Programming
+- PL/SQL
+- HTML, CSS
