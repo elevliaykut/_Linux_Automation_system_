@@ -45,7 +45,7 @@ An Application that automates linux systems.
 <hr></hr>
 
 <p align="center">
-    <img  src="./images/screenshot-3.jpg" width="80%" height="35%"/>
+    <img  src="./images/screenshot-3.JPG" width="80%" height="35%"/>
 </p>
 
 <hr></hr>
