@@ -1,5 +1,5 @@
 #!/bin/bash
-tail -n 1000 /u01/diag/rdbms/prod/PROD/trace/alert_PROD.log |grep "TNS"
+tail -n #! Your Alert Log Path |grep "TNS"
 echo " "
 echo " "
 echo " "
@@ -9,9 +9,9 @@ orahatasi=`tail -n 500 /u01/diag/rdbms/prod/PROD/trace/alert_PROD.log |grep "ORA
 
 if [ $orahatasi -eq 0 ]
 then 
-        echo "ORA HATASI MEVCUT DEGILDIR"
+        echo "ORA ERROR IS NOT AVAILABLE"
 
 
 else
-        tail -n 500 /u01/diag/rdbms/prod/PROD/trace/alert_PROD.log |grep "ORA-"
+        tail -n 500 #! Your Alert Log Path |grep "ORA-"
 fi;
