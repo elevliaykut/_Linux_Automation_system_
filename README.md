@@ -27,3 +27,25 @@ An Application that automates linux systems.
 ✔️ HTML, CSS
 
 <hr></hr>
+
+<p align="center">
+    <img  src="./images/screenshot-1.JPG" width="80%" height="35%"/>
+</p>
+
+<hr></hr>
+
+<hr></hr>
+
+<p align="center">
+    <img  src="./images/screenshot-2.JPG" width="80%" height="35%"/>
+</p>
+
+<hr></hr>
+
+<hr></hr>
+
+<p align="center">
+    <img  src="./images/screenshot-3.jpg" width="80%" height="35%"/>
+</p>
+
+<hr></hr>
